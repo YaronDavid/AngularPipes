@@ -1,1 +1,6 @@
+<p>{{ dark ? "dark mode" : "light mode" }}</p>
 <button class="btn btn-info" (click)="changeMode()">Cambiar color</button>
+
+<hr />
+
+<h1>temperatura: {{ temperature | temperature:tipoF:tipoF }} - {{ temperature | temperature:tipoF:tipoC }}</h1>
